@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    
+</head>
+<body bgcolor="black" >
+    <style>
+        body{
+            color: red;
+        }
+    </style>
+    <h1>Imagem dinãmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/ftpequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/ftmedia.png" type="image/png">
+        <img src="imagem/ftgrande.png" alt="Imagem Flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a Reproduzindo áudio em HTML 5</p>
+    <audio preload="meta" controls>
+        <source src="musica/ppkdomal.mp3" type="audio/mpeg">
+        <source src="musica/ppkdomal.ogg" type="audio/ogg">
+        <source src="musica/ppkdomal.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir aúdio. <a href="musica/ppkdomal.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

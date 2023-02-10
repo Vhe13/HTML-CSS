@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(Opentype), url(__MACOSX/fontes/idroid.otf) format(tuetype-att);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Chopsic';
+    src: url(fontes/Chopsic.otf) format(Opentype), url(__MACOSX/fontes/Chopsic.otf) format(tuetype-att);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+}
+
+header{
+    text-decoration: none;
+    background-image: linear-gradient(to top, #035a02, #037401, #049901, #04b401,#05dd01);
+    background-attachment: fixed;
+    padding: 10px;
+    margin: 2px 10px 0px 10px;
+    border-radius: 1px 1px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.356);
+    color: white;
+    
+}
+header > h1{
+    text-align: center;
+}
+header > h2{
+    text-align: center;
+}
+header > nav > a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+   
+    
+}
+
+header > nav > a:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
+header > nav> a:active{
+    color: rgb(0, 255, 128);
+}
+main{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 1px 1px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.356);
+    color: black;
+    text-align: left;
+}
+main > h2{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Chopsic',Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: darkgreen;
+}
+main > p{
+    margin: 5px;
+    padding: 0px 15px 15px 15px;
+    text-align: justify;
+    text-indent: 30px;
+}
+main > picture{
+    text-align: center;
+}
+main > iframe{
+    background-color: darkgreen;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 1px 1px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.356);
+    text-align: center;
+}
